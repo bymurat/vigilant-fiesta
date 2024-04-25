@@ -11,7 +11,8 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
-    "cz-git": "^1.9.1"
+    "cz-git": "^1.9.1",
+    "czg": "^1.9.1"
   },
   "scripts": {
     "start": "cds-serve"
