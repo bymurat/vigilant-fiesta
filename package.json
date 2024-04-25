@@ -18,6 +18,9 @@
   },
   "scripts": {
     "start": "cds-serve",
+    "start:ts": "cds-ts run",
+		"watch": "cds-ts watch",
+		"build:ts": "npx @cap-js/cds-typer '*' --outputDirectory gen",
     "cz": "czg"
   }
 }
