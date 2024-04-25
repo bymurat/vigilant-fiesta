@@ -7,14 +7,17 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",
+    "effect": "^3.0.5",
     "express": "^4"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
     "cz-git": "^1.9.1",
-    "czg": "^1.9.1"
+    "czg": "^1.9.1",
+    "typescript": "^5.4.5"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "cz": "czg"
   }
 }

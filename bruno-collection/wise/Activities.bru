@@ -1,0 +1,19 @@
+meta {
+  name: Activities
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{base_url}}/v1/profiles/{{profileId}}/activities
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{token}}
+}
+
+vars:pre-request {
+  profileId: 6814278
+}
